@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>base</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="conatainer">
+        <ul class="nav navbar-nav">
+           <<a href="{% url 'dummyapp:other' %}"> the other page </a> </li>
+           <li> <a class="navbar-link" href="{% url 'admin:index' %}">Admin</a> </li>
+        </ul>
+    </div>
+
+    {% block body_block %}
+    <!-- evrything outside of this can be extended -->
+    <h1> this is base page</h1>
+    {% endblock %}
+
+</body>
+</html>
