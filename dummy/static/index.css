@@ -1,0 +1,9 @@
+h1{
+text-align:center;}
+#para1{
+  text-align: center;
+}
+
+#back{
+background-image: linear-gradient(to right, black , white );
+}

@@ -1,0 +1,13 @@
+h1{ text-align:center;
+}
+#pic1{
+    height:50%;
+    width:100%;
+    box-sizing: border-box;
+    box-shadow:8px 8px 8px;
+}
+#submit{
+box-border: 0 8px 8px;
+border : 1px solid black;
+border-radius:3px;
+background-color:grey;}
